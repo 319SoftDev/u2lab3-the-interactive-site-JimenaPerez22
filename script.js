@@ -35,6 +35,10 @@ const checkNumber = (e) => {
     }
 }
 
+const continentCheck = (e) => {
+    const check = e.target.
+}
+
 radioInput.addEventListener('change', displayColor);
 numInput.addEventListener ('change', checkNumber);
 
