@@ -9,6 +9,8 @@ console.log(randomNumber);
 const numInput = document.querySelector("#num-input");
 const numOutput = document.querySelector("#num-output");
 
+const continentInput = document.querySelector("#text-")
+
 const displayColor = (e) => {
     //the color that was selected
     const color = e.target.value;
@@ -41,6 +43,7 @@ const continentCheck = (e) => {
 
 radioInput.addEventListener('change', displayColor);
 numInput.addEventListener ('change', checkNumber);
+
 
 
 // getRandomInt() - gets a random number between 1 and 100
