@@ -9,7 +9,7 @@ console.log(randomNumber);
 const numInput = document.querySelector("#num-input");
 const numOutput = document.querySelector("#num-output");
 
-const continentInput = document.querySelector("#text-")
+const continentInput = document.querySelector("#text-");
 
 const displayColor = (e) => {
     //the color that was selected
